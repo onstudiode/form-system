@@ -1,1 +1,97 @@
-const _0x20393a=_0x46d1;function _0x2640(){const _0x5240c5=['Fehler:','1085318CQlDdN','.w-form-fail','style','none','wf-form-sf-','value','click','querySelector','11493780UXOsTu','2180268ZFryJe','innerText','INPUT','disabled','display','querySelectorAll','tagName','Formular\x20hat\x20falsche\x20ID:','1850705Ktpwes','then','catch','log','Erfolgreich\x20abgesendet','12VuqkDH','Formulardaten:','Nein','reportValidity','766686nWfBwg','startsWith','name','DOMContentLoaded','Formular\x20nicht\x20gefunden','error','preventDefault','7nMFCdL','input[type=\x22checkbox\x22]','.single-submit','block','data-name','input[type=\x22text\x22]','forEach','1164992HlArEm','54JNyMnL','input[type=\x22radio\x22]','stringify','Formular\x20ist\x20nicht\x20gültig.\x20Senden\x20abgebrochen.','input[type=\x22number\x22]','parentElement','Form\x20gefunden:','checked','input[type=\x22email\x22]','578007qoDRwU','getAttribute','addEventListener','Fehler\x20beim\x20Senden:'];_0x2640=function(){return _0x5240c5;};return _0x2640();}function _0x46d1(_0x5cd526,_0x14cff8){const _0x26407e=_0x2640();return _0x46d1=function(_0x46d17e,_0x218bf1){_0x46d17e=_0x46d17e-0x14d;let _0x180c32=_0x26407e[_0x46d17e];return _0x180c32;},_0x46d1(_0x5cd526,_0x14cff8);}(function(_0x431346,_0xb1f074){const _0xffca7c=_0x46d1,_0x43521b=_0x431346();while(!![]){try{const _0x29c46c=parseInt(_0xffca7c(0x175))/0x1+-parseInt(_0xffca7c(0x15b))/0x2+-parseInt(_0xffca7c(0x156))/0x3*(-parseInt(_0xffca7c(0x171))/0x4)+-parseInt(_0xffca7c(0x16c))/0x5+-parseInt(_0xffca7c(0x164))/0x6*(-parseInt(_0xffca7c(0x17c))/0x7)+-parseInt(_0xffca7c(0x183))/0x8*(-parseInt(_0xffca7c(0x14d))/0x9)+-parseInt(_0xffca7c(0x163))/0xa;if(_0x29c46c===_0xb1f074)break;else _0x43521b['push'](_0x43521b['shift']());}catch(_0x24567f){_0x43521b['push'](_0x43521b['shift']());}}}(_0x2640,0x7edd5),document[_0x20393a(0x158)](_0x20393a(0x178),function(){const _0x15c545=_0x20393a,_0x5ca279=document[_0x15c545(0x169)](_0x15c545(0x17e));_0x5ca279['forEach'](function(_0x2cc570){const _0x316f32=_0x15c545;_0x2cc570[_0x316f32(0x158)](_0x316f32(0x161),async function(_0x5dec64){const _0xa31380=_0x316f32,_0x4112af=_0x2cc570['closest']('form');if(_0x4112af){_0x5dec64[_0xa31380(0x17b)](),console['log'](_0xa31380(0x153),_0x4112af);if(_0x4112af['id'][_0xa31380(0x176)](_0xa31380(0x15f))){const _0x28d840=_0x4112af['getAttribute']('data-webhook');console['log']('Webhook:',_0x28d840);if(_0x4112af['checkValidity']()){await new Promise(_0x26ec05=>setTimeout(_0x26ec05,0x3e8));const _0x2c5d77=_0x2cc570[_0xa31380(0x16a)]===_0xa31380(0x166)?_0x2cc570[_0xa31380(0x160)]:_0x2cc570[_0xa31380(0x165)];_0x1e3f84(_0x28d840,_0x4112af,_0x2cc570,_0x2c5d77);}else console[_0xa31380(0x16f)](_0xa31380(0x150)),_0x4112af[_0xa31380(0x174)]();}else console[_0xa31380(0x16f)](_0xa31380(0x16b),_0x4112af['id']);}else console[_0xa31380(0x16f)](_0xa31380(0x179));});});function _0x1e3f84(_0x259dcb,_0x4e647e,_0x101b94,_0x62f4e7){const _0x40a7de=_0x15c545,_0x2b6802={},_0x52a22d=_0x4e647e['querySelectorAll'](_0x40a7de(0x14e));_0x52a22d[_0x40a7de(0x182)](_0x47fe22=>{const _0xf9988c=_0x40a7de,_0x3f25bd=_0x47fe22[_0xf9988c(0x157)](_0xf9988c(0x177)),_0x5c9273=_0x47fe22[_0xf9988c(0x157)](_0xf9988c(0x180)),_0x14fd5b=_0x47fe22[_0xf9988c(0x154)];_0x3f25bd&&_0x14fd5b&&(_0x2b6802[_0x3f25bd]=_0x5c9273);});const _0x4e3446=_0x4e647e['querySelectorAll'](_0x40a7de(0x17d));_0x4e3446[_0x40a7de(0x182)](_0x1eb1af=>{const _0x490fbb=_0x40a7de;_0x2b6802[_0x1eb1af[_0x490fbb(0x157)]('data-name')]=_0x1eb1af['checked']?'Ja':_0x490fbb(0x173);});const _0x1a4b39=_0x4e647e[_0x40a7de(0x169)](_0x40a7de(0x181));_0x1a4b39[_0x40a7de(0x182)](_0x4e1c7d=>{const _0x1cf3b4=_0x40a7de;_0x2b6802[_0x4e1c7d[_0x1cf3b4(0x157)](_0x1cf3b4(0x180))]=_0x4e1c7d[_0x1cf3b4(0x160)];});const _0x203ab8=_0x4e647e[_0x40a7de(0x169)]('textarea');_0x203ab8['forEach'](_0x24cf83=>{const _0xbb4842=_0x40a7de;_0x2b6802[_0x24cf83[_0xbb4842(0x157)](_0xbb4842(0x180))]=_0x24cf83[_0xbb4842(0x160)];});const _0xf709fe=_0x4e647e[_0x40a7de(0x169)](_0x40a7de(0x151));_0xf709fe[_0x40a7de(0x182)](_0x5d43cc=>{const _0x20379c=_0x40a7de;_0x2b6802[_0x5d43cc['getAttribute'](_0x20379c(0x180))]=_0x5d43cc[_0x20379c(0x160)];});const _0x3e2d94=_0x4e647e[_0x40a7de(0x169)]('input[type=\x22tel\x22]');_0x3e2d94['forEach'](_0x395858=>{const _0x4de0f1=_0x40a7de;_0x2b6802[_0x395858[_0x4de0f1(0x157)](_0x4de0f1(0x180))]=_0x395858['value'];});const _0x15d30c=_0x4e647e['querySelectorAll'](_0x40a7de(0x155));_0x15d30c['forEach'](_0x4c9d41=>{const _0x3376c0=_0x40a7de;_0x2b6802[_0x4c9d41[_0x3376c0(0x157)](_0x3376c0(0x180))]=_0x4c9d41['value'];}),_0x2b6802['formularname']=_0x4e647e[_0x40a7de(0x157)]('id'),console[_0x40a7de(0x16f)](_0x40a7de(0x172),_0x2b6802);const _0x3f2b50=_0x4e647e[_0x40a7de(0x152)],_0x12a95f=_0x3f2b50[_0x40a7de(0x162)]('.w-form-done'),_0x4129f6=_0x3f2b50[_0x40a7de(0x162)](_0x40a7de(0x15c));fetch(_0x259dcb,{'method':'POST','headers':{'Content-Type':'application/json;\x20charset=utf-8'},'body':JSON[_0x40a7de(0x14f)](_0x2b6802)})[_0x40a7de(0x16d)](_0x558d0f=>{const _0x46a5ac=_0x40a7de;_0x558d0f['ok']?(_0x101b94[_0x46a5ac(0x16a)]===_0x46a5ac(0x166)?_0x101b94[_0x46a5ac(0x160)]=_0x62f4e7:_0x101b94[_0x46a5ac(0x165)]=_0x62f4e7,_0x101b94[_0x46a5ac(0x167)]=![],_0x4e647e[_0x46a5ac(0x15d)][_0x46a5ac(0x168)]=_0x46a5ac(0x15e),_0x12a95f[_0x46a5ac(0x15d)][_0x46a5ac(0x168)]='block',_0x4129f6[_0x46a5ac(0x15d)]['display']='none',console['log'](_0x46a5ac(0x170))):(console[_0x46a5ac(0x16f)](_0x46a5ac(0x159),_0x558d0f),_0x4e647e[_0x46a5ac(0x15d)][_0x46a5ac(0x168)]=_0x46a5ac(0x17f),_0x12a95f[_0x46a5ac(0x15d)][_0x46a5ac(0x168)]=_0x46a5ac(0x15e),_0x4129f6[_0x46a5ac(0x15d)]['display']=_0x46a5ac(0x17f));})[_0x40a7de(0x16e)](_0x17ced7=>{const _0x1d0209=_0x40a7de;console[_0x1d0209(0x17a)](_0x1d0209(0x15a),_0x17ced7),_0x4e647e['style']['display']='block',_0x12a95f[_0x1d0209(0x15d)][_0x1d0209(0x168)]='none',_0x4129f6[_0x1d0209(0x15d)][_0x1d0209(0x168)]=_0x1d0209(0x17f);});}}));
+document['addEventListener']('DOMContentLoaded', function () {
+    const _0x4fd8a5 = document['querySelectorAll']('.single-submit');
+    _0x4fd8a5['forEach'](function (_0x1f46e4) {
+        _0x1f46e4['addEventListener']('click', async function (_0x37dc42) {
+            const _0x2f7a71 = _0x1f46e4['closest']('form');
+            if (_0x2f7a71) {
+                _0x37dc42['preventDefault']();
+                console['log']('Form\x20gefunden:', _0x2f7a71);
+                if (_0x2f7a71['id']['startsWith']('wf-form-sf-')) {
+                    const _0x1afd13 = _0x2f7a71['getAttribute']('data-webhook');
+                    console['log']('Webhook:', _0x1afd13);
+                    if (_0x2f7a71['checkValidity']()) {
+                        await new Promise(_0x5ed5d6 => setTimeout(_0x5ed5d6, 0x3e8));
+                        const _0xf432fe = _0x1f46e4['tagName'] === 'INPUT' ? _0x1f46e4['value'] : _0x1f46e4['innerText'];
+                        _0x208b9f(_0x1afd13, _0x2f7a71, _0x1f46e4, _0xf432fe);
+                    } else {
+                        console['log']('Formular\x20ist\x20nicht\x20gültig.\x20Senden\x20abgebrochen.');
+                        _0x2f7a71['reportValidity']();
+                    }
+                } else {
+                    console['log']('Formular\x20hat\x20falsche\x20ID:', _0x2f7a71['id']);
+                }
+            } else {
+                console['log']('Formular\x20nicht\x20gefunden');
+            }
+        });
+    });
+    function _0x208b9f(_0x38f864, _0x16e7ae, _0x57c697, _0x590161) {
+        const _0x17b467 = {};
+        const _0x3596a0 = _0x16e7ae['querySelectorAll']('input[type=\x22radio\x22]');
+        _0x3596a0['forEach'](_0x3ee940 => {
+            const _0x565ac6 = _0x3ee940['getAttribute']('name');
+            const _0x32b50a = _0x3ee940['getAttribute']('data-name');
+            const _0x1f41d5 = _0x3ee940['checked'];
+            if (_0x565ac6 && _0x1f41d5) {
+                _0x17b467[_0x565ac6] = _0x32b50a;
+            }
+        });
+        const _0x3d9a13 = _0x16e7ae['querySelectorAll']('input[type=\x22checkbox\x22]');
+        _0x3d9a13['forEach'](_0x4815e1 => {
+            _0x17b467[_0x4815e1['getAttribute']('data-name')] = _0x4815e1['checked'] ? 'Ja' : 'Nein';
+        });
+        const _0x58fc37 = _0x16e7ae['querySelectorAll']('input[type=\x22text\x22]');
+        _0x58fc37['forEach'](_0x3f1dfd => {
+            _0x17b467[_0x3f1dfd['getAttribute']('data-name')] = _0x3f1dfd['value'];
+        });
+        const _0x15e781 = _0x16e7ae['querySelectorAll']('textarea');
+        _0x15e781['forEach'](_0x52471c => {
+            _0x17b467[_0x52471c['getAttribute']('data-name')] = _0x52471c['value'];
+        });
+        const _0x52b9a7 = _0x16e7ae['querySelectorAll']('input[type=\x22number\x22]');
+        _0x52b9a7['forEach'](_0x4ac105 => {
+            _0x17b467[_0x4ac105['getAttribute']('data-name')] = _0x4ac105['value'];
+        });
+        const _0x3d51ee = _0x16e7ae['querySelectorAll']('input[type=\x22tel\x22]');
+        _0x3d51ee['forEach'](_0x53bf4e => {
+            _0x17b467[_0x53bf4e['getAttribute']('data-name')] = _0x53bf4e['value'];
+        });
+        const _0x407cfe = _0x16e7ae['querySelectorAll']('input[type=\x22email\x22]');
+        _0x407cfe['forEach'](_0x42ae15 => {
+            _0x17b467[_0x42ae15['getAttribute']('data-name')] = _0x42ae15['value'];
+        });
+        _0x17b467['_0x5077cf'] = _0x16e7ae['getAttribute']('id');
+        console['log']('Formulardaten:', _0x17b467);
+        const _0x56e189 = _0x16e7ae['parentElement'];
+        const _0xf01338 = _0x56e189['querySelector']('.w-form-done');
+        const _0x550c4f = _0x56e189['querySelector']('.w-form-fail');
+        fetch(_0x38f864, {
+            'method': 'POST',
+            'headers': { '_0x4a4460': 'application/json;\x20charset=utf-8' },
+            'body': JSON['stringify'](_0x17b467)
+        })['then'](_0x2ab76b => {
+            if (_0x2ab76b['ok']) {
+                if (_0x57c697['tagName'] === 'INPUT') {
+                    _0x57c697['value'] = _0x590161;
+                } else {
+                    _0x57c697['innerText'] = _0x590161;
+                }
+                _0x57c697['disabled'] = ![];
+                _0x16e7ae['style']['display'] = 'none';
+                _0xf01338['style']['display'] = 'block';
+                _0x550c4f['style']['display'] = 'none';
+                console['log']('Erfolgreich\x20abgesendet');
+            } else {
+                console['log']('Fehler\x20beim\x20Senden:', _0x2ab76b);
+                _0x16e7ae['style']['display'] = 'block';
+                _0xf01338['style']['display'] = 'none';
+                _0x550c4f['style']['display'] = 'block';
+            }
+        })['catch'](_0x47d6ad => {
+            console['error']('Fehler:', _0x47d6ad);
+            _0x16e7ae['style']['display'] = 'block';
+            _0xf01338['style']['display'] = 'none';
+            _0x550c4f['style']['display'] = 'block';
+        });
+    }
+});
