@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             Object.keys(groups).forEach((groupName) => {
                 if (groups[groupName].length === 0) {
-                    formData[groupName] = '/';
+                    formData[groupName] = encodeURIComponent('/');
                 } else {
                     formData[groupName] = groups[groupName][0];
                 }
