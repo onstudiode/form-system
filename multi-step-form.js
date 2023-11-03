@@ -18,15 +18,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const webhook = form.getAttribute('data-webhook');
             const formData = {};
-            const radioButtons = form.querySelectorAll('input[type="radio"]');
 
+            const radioButtons = form.querySelectorAll('input[type="radio"]');
+            const groups = {};
+            
+            radioButtons.forEach((radio) => {
+                const groupName = radio.getAttribute('name');
+                if (groupName && !groups[groupName]) {
+                    groups[groupName] = [];
+                }
+            });
+            
             radioButtons.forEach((radio) => {
                 const groupName = radio.getAttribute('name');
                 const dataName = radio.getAttribute('value');
                 const isChecked = radio.checked;
-
+            
                 if (groupName && isChecked) {
-                    formData[groupName] = dataName;
+                    groups[groupName].push(dataName);
+                }
+            });
+            
+            Object.keys(groups).forEach((groupName) => {
+                if (groups[groupName].length === 0) {
+                    formData[groupName] = '/';
+                } else {
+                    formData[groupName] = groups[groupName][0];
                 }
             });
 
