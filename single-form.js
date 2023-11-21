@@ -63,8 +63,8 @@ document.addEventListener('DOMContentLoaded', function () {
             formData[input.getAttribute('data-name')] = input.value;
         });
 
-        const PhoneInputs = form.querySelectorAll('input[type="tel"]');
-        PhoneInputs.forEach((input) => {
+        const phoneInputs = form.querySelectorAll('input[type="tel"]');
+        phoneInputs.forEach((input) => {
             formData[input.getAttribute('data-name')] = input.value;
         });
 
@@ -75,7 +75,9 @@ document.addEventListener('DOMContentLoaded', function () {
         
         const selectElements = form.querySelectorAll('select');
         selectElements.forEach((select) => {
-            formData[select.getAttribute('data-name')] = select.value;
+            const dataName = select.getAttribute('data-name');
+            const selectedValue = select.value;
+        formData[dataName] = selectedValue;
         });
 
         formData.formularname = form.getAttribute('id');
