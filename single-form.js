@@ -72,8 +72,11 @@ document.addEventListener('DOMContentLoaded', function () {
         emailInputs.forEach((input) => {
             formData[input.getAttribute('data-name')] = input.value;
         });
-
-
+        
+        const selectElements = form.querySelectorAll('select');
+        selectElements.forEach((select) => {
+            formData[select.getAttribute('data-name')] = select.value;
+        });
 
         formData.formularname = form.getAttribute('id');
         console.log('Formulardaten:', formData);
