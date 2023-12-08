@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     console.log('Formular hat falsche ID:', form.id);
                 }
             } else {
-                console.log('Formular nicht gefunden');
+                console.log('Formular nicht gefunden oder bereits abgesendet');
             }
         });
     });
