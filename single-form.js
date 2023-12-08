@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     const webhook = form.getAttribute('data-webhook');
                     
                     if (form.checkValidity()) {
+                        submitButton.disabled = true;
                         await new Promise(resolve => setTimeout(resolve, 150));
                         const originalText = submitButton.tagName === 'INPUT' ? submitButton.value : submitButton.innerText;
                         sendWebhook(webhook, form, submitButton, originalText);
@@ -101,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     } else {
                         submitButton.innerText = originalText;
                     }
-                    submitButton.disabled = false;
+                    submitButton.disabled = true;
                     form.style.display = 'none';
                     doneBlock.style.display = 'block';
                     failBlock.style.display = 'none';
@@ -118,6 +119,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 form.style.display = 'block';
                 doneBlock.style.display = 'none';
                 failBlock.style.display = 'block';
+                submitButton.disabled = false;
             });
     }
 });
