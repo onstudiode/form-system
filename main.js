@@ -1,5 +1,5 @@
 // © Code by ONSTUDIO, https://www.onstudio.de/
-// Copyright 2023, ONSTUDIO, All rights reserved.
+// Copyright 2023, ONSTUDIO, All rights reserved. (Update)
 
 document.addEventListener('DOMContentLoaded', function () {
     const submitButtons = document.querySelectorAll('.form-submit');
