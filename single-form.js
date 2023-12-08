@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         submitButton.addEventListener('click', async function (e) {
             const form = submitButton.closest('form');
 
-            if (form) {
+            if (!submitButton.disabled && form) {
                 e.preventDefault();
                 if (form.id.startsWith('wf-form-sf-')) {
                     const webhook = form.getAttribute('data-webhook');
@@ -112,6 +112,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     form.style.display = 'block';
                     doneBlock.style.display = 'none';
                     failBlock.style.display = 'block';
+                    submitButton.disabled = false;
                 }
             })
             .catch(error => {
