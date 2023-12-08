@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
            const errorDiv = form.querySelector('.last-error');
         if (errorDiv && ['block', 'inline-block'].includes(window.getComputedStyle(errorDiv).display)) {
             return;
-          
+        };
+        
             if (!submitButton.disabled && form) {
                 e.preventDefault();
                 if (form.id.startsWith('wf-form-')) {
