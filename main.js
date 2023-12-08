@@ -7,13 +7,17 @@ document.addEventListener('DOMContentLoaded', function () {
     submitButtons.forEach(function (submitButton) {
         submitButton.addEventListener('click', async function (e) {
             const form = submitButton.closest('form');
+            let isErrorVisible = false;
 
            const errorDiv = form.querySelector('.last-error');
         if (errorDiv && ['block', 'inline-block'].includes(window.getComputedStyle(errorDiv).display)) {
+            isErrorVisible = true;
             return;
-        };
-        
-            if (!submitButton.disabled && form) {
+        } else {
+            isErrorVisible = false;
+        }
+
+            if (isErrorVisible && !submitButton.disabled && form) {
                 e.preventDefault();
                 if (form.id.startsWith('wf-form-')) {
                     const webhook = form.getAttribute('data-webhook');
