@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             isErrorVisible = false;
         }
 
-            if (isErrorVisible && !submitButton.disabled && form) {
+            if (!isErrorVisible && !submitButton.disabled && form) {
                 e.preventDefault();
                 if (form.id.startsWith('wf-form-')) {
                     const webhook = form.getAttribute('data-webhook');
