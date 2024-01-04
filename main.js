@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const radioButtons = form.querySelectorAll('input[type="radio"]');
         radioButtons.forEach((radio) => {
             const groupName = radio.getAttribute('name');
-            const dataName = radio.getAttribute('data-name');
+            const dataName = radio.value;
             const isChecked = radio.checked;
 
             if (groupName && isChecked) {
