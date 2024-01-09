@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     submitButtons.forEach(function (submitButton) {
         submitButton.addEventListener('click', async function (e) {
             const form = submitButton.closest('form');
+            await new Promise(resolve => setTimeout(resolve, 150));
             let isErrorVisible = false;
 
            const errorDiv = form.querySelector('.last-error');
