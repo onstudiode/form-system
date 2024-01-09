@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
             const form = submitButton.closest('form');
             const loader = form.querySelector('.loader');
             const submitDiv = submitButton.closest('.button');
-            const onsText = submitDiv.getAttribute('data-ons-text')
             
             await new Promise(resolve => setTimeout(resolve, 150));
             let isErrorVisible = false;
@@ -31,8 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     
                     if (form.checkValidity()) {
                         submitButton.disabled = true;
+                        loaderDiv.style.display = 'block';
+                        const originalText = submitButton.tagName === 'INPUT' ? submitDiv.getAttribute('data-ons-text') : submitButton.innerText;
                         await new Promise(resolve => setTimeout(resolve, 150));
-                        const originalText = submitButton.tagName === 'INPUT' ? onsText : submitButton.innerText;
                         sendWebhook(webhook, form, submitButton, originalText);
                     } else {
                         form.reportValidity();
