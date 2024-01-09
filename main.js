@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
            const errorDiv = form.querySelector('.last-error');
         if (errorDiv && ['block', 'inline-block'].includes(window.getComputedStyle(errorDiv).display)) {
             isErrorVisible = true;
-            print("True" + errorDiv)
+            console.log("True" + errorDiv)
             return;
         } else {
             isErrorVisible = false;
-             print("False" + errorDiv)
+             console.log("False" + errorDiv)
         }
 
             if (!isErrorVisible && !submitButton.disabled && form) {
