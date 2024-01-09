@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         const originalText = submitButton.tagName === 'INPUT' ? submitButton.value : submitButton.innerText;
                         await new Promise(resolve => setTimeout(resolve, 150));
                         sendWebhook(webhook, form, submitButton, originalText);
+                        console.log('Erfolgreich abgesendet');
                     } else {
                         form.reportValidity();
                     }
@@ -119,7 +120,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     form.style.display = 'none';
                     doneBlock.style.display = 'block';
                     failBlock.style.display = 'none';
-                    console.log('Erfolgreich abgesendet');
                 } else {
                     console.log('Fehler beim Senden:', response);
                     form.style.display = 'block';
